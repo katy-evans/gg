@@ -1,5 +1,5 @@
 import Head from 'next/head'
-// import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -10,13 +10,35 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-            {/* <section className="flex justify-center items-center">
-                <h1 className="text-2xl text-green-600">title</h1>
-            </section> */}
+      <main className="">
+        <section className="h-60 flex justify-center items-center">
+          
+          <h1 className="text-2xl text-green-600 z-2">Green Gannet</h1>
+        </section>
+
+        <section className="w-full h-60 mt-4">
+            <div className="flex justify-center items-center">
+          <h2>slider of images here?</h2>
+            </div>
+        </section>
+
+        <section className="bg-green-700 p-3">
+          <div className="flex items-center justify-center">
+        
+            <p>
+              Quis elit proident laboris exercitation consequat officia do Lorem
+              quis velit commodo. Lorem labore esse adipisicing non sit cillum.
+              Irure velit ex sit Lorem et reprehenderit duis commodo velit
+              mollit. Ex nisi proident sunt proident elit ea ipsum aute. Magna
+              sunt cillum culpa do occaecat ullamco laborum. Enim sit elit ex
+              incididunt culpa in qui proident ipsum incididunt laboris. Ea do
+              enim incididunt amet nostrud elit aliqua.
+            </p>
+          </div>
+        </section>
       </main>
 
       <footer></footer>
     </div>
-  )
+  );
 }
