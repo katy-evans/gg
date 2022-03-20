@@ -1,11 +1,13 @@
 import React from "react";
 import Nav from "../Nav";
+import Footer from "../Footer";
 
 const Layout = (props) => {
   return (
     <div className="m-4">
       <Nav />
-      {props.children}
+      <div className="h-screen">{props.children}</div>
+      <Footer />
     </div>
   );
 };

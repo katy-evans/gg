@@ -11,7 +11,7 @@ const handleClick = () => {
 
   return (
     <>
-      <nav className="sticky md:flex md:items-center mx-auto md:justify-between backdrop-blur-sm h-12 md:sticky top-0 bg-green-700/30 shadow-md">
+      <nav className="sticky md:flex md:items-center mx-auto md:justify-between backdrop-blur-sm h-12 md:sticky top-0 shadow-md">
         {/* <button className="flex items-center text-green-500 p-2 hover:text-green-700 transition duration-500 ease-in-out">
           logo
         </button> */}
@@ -41,7 +41,7 @@ const handleClick = () => {
             active ? "" : "hidden"
           } mx-auto md:inline-flex md:flex-grow md:w-auto`}
         >
-          <ul className="md:flex uppercase text-xs justify-evenly items-center  md:static  md:w-auto opacity-100 transition-all ease-in duration-500 text-green-700 bg-white md:bg-green-700/0 py-2 h-screen">
+          <ul className="md:flex uppercase text-xs justify-evenly items-center  md:static  md:w-auto opacity-100 transition-all ease-in duration-500 text-green-700 bg-white py-2 h-screen md:h-auto text-center">
             <li className="mx-4 my-6 md:my-0">
               <Link href="/about">
                 <a className="hover:font-bold">About</a>
