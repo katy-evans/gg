@@ -1,14 +1,20 @@
 import React from "react";
 import Nav from "../Nav";
 import Footer from "../Footer";
+import Head from "next/head";
 
 const Layout = (props) => {
   return (
-    <div className="m-4">
-      <Nav />
-      <div className="h-screen">{props.children}</div>
-      <Footer />
-    </div>
+    <>
+      <Head>
+       
+      </Head>
+      <div className="m-4">
+        <Nav />
+        <div className="h-screen">{props.children}</div>
+        <Footer />
+      </div>
+    </>
   );
 };
 

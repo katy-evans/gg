@@ -11,9 +11,9 @@ export default function Home() {
       </Head>
 
       <main className="">
-        <section className="h-60 flex justify-center items-center">
+        <section className="h-40 flex justify-center items-center">
           
-          <h1 className="text-2xl text-green-600 z-2">Green Gannet</h1>
+          <h1 className="text-2xl text-gannet-500 z-2">Green Gannet</h1>
         </section>
 
         <section className="w-full h-60 mt-4">
@@ -29,10 +29,7 @@ export default function Home() {
               Quis elit proident laboris exercitation consequat officia do Lorem
               quis velit commodo. Lorem labore esse adipisicing non sit cillum.
               Irure velit ex sit Lorem et reprehenderit duis commodo velit
-              mollit. Ex nisi proident sunt proident elit ea ipsum aute. Magna
-              sunt cillum culpa do occaecat ullamco laborum. Enim sit elit ex
-              incididunt culpa in qui proident ipsum incididunt laboris. Ea do
-              enim incididunt amet nostrud elit aliqua.
+              mollit.
             </p>
           </div>
         </section>
