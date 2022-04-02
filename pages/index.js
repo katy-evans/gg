@@ -26,6 +26,7 @@ export default function Home() {
           <div className="flex items-center justify-center">
         
             <p>
+			lalalala
               Quis elit proident laboris exercitation consequat officia do Lorem
               quis velit commodo. Lorem labore esse adipisicing non sit cillum.
               Irure velit ex sit Lorem et reprehenderit duis commodo velit
