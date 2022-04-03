@@ -6,11 +6,9 @@ import Head from "next/head";
 const Layout = (props) => {
   return (
     <>
-      <Head>
-	
-      </Head>
+      <Head></Head>
       <div className="">
-        <Nav />
+          <Nav />
         <div className="h-screen bg-[#222]">{props.children}</div>
         <Footer />
       </div>

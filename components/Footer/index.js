@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <div className="bg-[#222] p-4">
+    <div className="bg-[#222] p-4 border-t border-black pt-5">
       <ul className="flex flex-wrap space-x-4 justify-center items-center p-2">
         <li>
           <Link href="https://www.facebook.com/Greengannetfoodco/">
@@ -28,6 +28,9 @@ const Footer = () => {
 
       <div className="flex justify-center items-center">
         <p className="text-gannet-700">&#169; greengannetfoodco</p>
+      </div>
+      <div className="flex justify-center items-center p-2">
+        <p className="text-gannet-700 text-xs">site by &#169; katyevans</p>
       </div>
     </div>
   );

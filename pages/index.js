@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Landing from '../components/Landing';
 
 export default function Home() {
   return (
@@ -11,43 +12,7 @@ export default function Home() {
       </Head>
 
       <main className="">
-        <div className="flex justify-center items-center w-full relative">
-          <Image
-            src={"/images/main-image.jpg"}
-            alt={"bbq food"}
-            width={1500}
-            height={1100}
-            className="object-cover opacity-40"
-          />
-          <div className="absolute top-20">
-            <h1 className="text-4xl text-gannet-500 font-slab">
-              Green Gannet food co
-            </h1>
-          </div>
-        </div>
-
-        {/* <section className="h-40 flex justify-center items-center">
-          
-          <h1 className="text-2xl text-gannet-500 z-2">Green Gannet</h1>
-        </section>
-
-        <section className="w-full h-60 mt-4">
-            <div className="flex justify-center items-center">
-          <h2>slider of images here?</h2>
-            </div>
-        </section>
-
-        <section className="bg-green-700 p-3">
-          <div className="flex items-center justify-center">
-        
-            <p>
-              Quis elit proident laboris exercitation consequat officia do Lorem
-              quis velit commodo. Lorem labore esse adipisicing non sit cillum.
-              Irure velit ex sit Lorem et reprehenderit duis commodo velit
-              mollit.
-            </p>
-          </div>
-        </section> */}
+        <Landing />
       </main>
 
       <footer></footer>
