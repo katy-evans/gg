@@ -20,6 +20,11 @@ module.exports = {
           900: "#34504c",
         },
       },
+
+      fontFamily: {
+        slab: ["timberline", "sans-serif"],
+      },
+
     },
   },
   plugins: [],

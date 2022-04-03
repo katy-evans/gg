@@ -5,14 +5,14 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <div className="bg-white border-t border-black">
+    <div className="bg-[#222] p-4 border-t border-black pt-5">
       <ul className="flex flex-wrap space-x-4 justify-center items-center p-2">
         <li>
           <Link href="https://www.facebook.com/Greengannetfoodco/">
             <a target="__blank" rel="noOpener noReferrer">
               <FontAwesomeIcon
                 icon={faFacebook}
-                className="w-6 h-6 text-[#3B5998]"
+                className="w-6 h-6 text-black"
               />
             </a>
           </Link>
@@ -28,6 +28,9 @@ const Footer = () => {
 
       <div className="flex justify-center items-center">
         <p className="text-gannet-700">&#169; greengannetfoodco</p>
+      </div>
+      <div className="flex justify-center items-center p-2">
+        <p className="text-gannet-700 text-xs">site by &#169; katyevans</p>
       </div>
     </div>
   );
