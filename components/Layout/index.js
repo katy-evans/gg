@@ -7,11 +7,11 @@ const Layout = (props) => {
   return (
     <>
       <Head>
-       
+	
       </Head>
-      <div className="m-4">
+      <div className="">
         <Nav />
-        <div className="h-screen">{props.children}</div>
+        <div className="h-screen bg-[#222]">{props.children}</div>
         <Footer />
       </div>
     </>

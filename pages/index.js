@@ -11,7 +11,22 @@ export default function Home() {
       </Head>
 
       <main className="">
-        <section className="h-40 flex justify-center items-center">
+        <div className="flex justify-center items-center w-full relative">
+          <Image
+            src={"/images/main-image.jpg"}
+            alt={"bbq food"}
+            width={1500}
+            height={1100}
+            className="object-cover opacity-40"
+          />
+          <div className="absolute top-20">
+            <h1 className="text-4xl text-gannet-500 font-slab">
+              Green Gannet food co
+            </h1>
+          </div>
+        </div>
+
+        {/* <section className="h-40 flex justify-center items-center">
           
           <h1 className="text-2xl text-gannet-500 z-2">Green Gannet</h1>
         </section>
@@ -32,7 +47,7 @@ export default function Home() {
               mollit.
             </p>
           </div>
-        </section>
+        </section> */}
       </main>
 
       <footer></footer>
