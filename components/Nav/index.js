@@ -200,7 +200,7 @@ export default function Navbar() {
 
     const [open, setOpen] = useState(false)
     return (
-        <nav className="flex filter drop-shadow-md bg-[#222] px-4 py-4 h-20 items-center">
+        <nav className="sticky top-0 flex filter drop-shadow-md bg-[#222] px-4 py-4 h-20 items-center">
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="w-3/12 flex items-center">
                 <a className="text-2xl text-gannet-700 hover:text-gannet-500 font-semibold" href="/">GG</a>
