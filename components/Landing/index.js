@@ -42,7 +42,9 @@ const Landing = () => {
           <div className="col-span-2 md:col-span-1 text-center">
             <div className="flex justify-center items-center">
 				<div className="bg-gannet-900 h-56 w-1/2">
-					{/* <Image src="/images/firefood.jpg" alt="food" width={300} height={400} /> */}
+				
+					<Image src="/images/firefood.jpg" alt="food" width={300} height={400} />
+				
 					<p>image here</p>
 				</div>
 				<p>
