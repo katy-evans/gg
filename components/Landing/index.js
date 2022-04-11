@@ -29,9 +29,9 @@ const Landing = () => {
         </div>
       </section>
 
-      <section className="bg-gannet-200 p-3 max-h-full">
+      <section className="bg-gannet-200 p-3 max-h-screen">
         <div className="grid grid-cols-2 gap-10 md:gap-12 lg:gap-14">
-          <div className="col-span-2 md:col-span-1">
+          <div className="col-span-2 md:col-span-1 flex justify-center items-center">
             <p>
               Quis elit proident laboris exercitation consequat officia do Lorem
               quis velit commodo. Lorem labore esse adipisicing non sit cillum.
@@ -40,12 +40,9 @@ const Landing = () => {
             </p>
           </div>
           <div className="col-span-2 md:col-span-1 text-center">
-            <div className="flex justify-center items-center">
-				<div className="bg-gannet-900 h-56 w-1/2">
-				
-					<Image src="/images/firefood.jpg" alt="food" width={300} height={400} />
-				
-					<p>image here</p>
+            <div className="flex justify-center items-center p-2">
+				<div className="bg-gannet-900 w-full">
+					<img src="/images/firefood.jpg" alt="food" className="object-cover"/>
 				</div>
 				<p>
 					Quis elit proident laboris exercitation consequat officia do
