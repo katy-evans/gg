@@ -167,28 +167,31 @@
 import { useState } from 'react'
 
 function NavLink({to, children}) {
-    return <a href={to} className={`mx-4`}>
+    return <a href={to} className={`mx-4 hover:text-gannet-500`}>
         {children}
     </a>
 }
 
 function MobileNav({open, setOpen}) {
     return (
-        <div className={`absolute top-0 left-0 h-screen w-screen bg-[#222] transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md `}>
-            <div className="flex items-center justify-center filter drop-shadow-md bg-[#222] h-20"> {/*logo container*/}
-                <a className="text-xl text-gannet-700 font-semibold" href="/">GG</a>
+        <div className={`absolute top-0 left-0 h-screen w-screen bg-[#222] transform transition duration-500 ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md `}>
+            <div className="flex items-center justify-center filter drop-shadow-md bg-[#222] h-20"> {/* logo */}
+                <a className="text-xl text-gannet-700 font-semibold hover:text-gannet-500" href="/">GG</a>
             </div>
-            <div className="flex flex-col ml-4">
-                <a className="text-xl font-medium my-4 text-gannet-700" href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    About
-                </a>
-                <a className="text-xl font-normal my-4 text-gannet-700" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    Contact
-                </a>
-                <a className="text-xl font-normal my-4 text-gannet-700" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    Services
-                </a>
-            </div>  
+
+			<div className="m-20 flex justify-center items-center">
+				<div className="flex flex-col uppercase text-center">
+					<a className="text-sm font-medium my-4 text-gannet-700 hover:text-gannet-500" href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+						About
+					</a>
+					<a className="text-sm font-normal my-4 text-gannet-700 hover:text-gannet-500" href="/services" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+						Services
+					</a>
+					<a className="text-sm font-normal my-4 text-gannet-700 hover:text-gannet-500" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+						Contact
+					</a>
+				</div>  
+			</div>
         </div>
     )
 }
@@ -207,7 +210,7 @@ export default function Navbar() {
                 <div className="z-50 flex relative w-8 h-8 flex-col justify-between items-center md:hidden" onClick={() => {
                     setOpen(!open)
                 }}>
-                    {/* hamburger button */}
+                    {/* hamburger icon */}
                     <span className={`h-1 w-full bg-gannet-700 rounded-lg transform transition duration-300 ease-in-out ${open ? "rotate-45 translate-y-3.5" : ""}`} />
                     <span className={`h-1 w-full bg-gannet-700 rounded-lg transition-all duration-300 ease-in-out ${open ? "w-0" : "w-full"}`} />
                     <span className={`h-1 w-full bg-gannet-700 rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""}`} />
