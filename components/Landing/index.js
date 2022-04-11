@@ -29,8 +29,8 @@ const Landing = () => {
         </div>
       </section>
 
-      <section className="bg-gannet-200 p-3 max-h-screen">
-        <div className="grid grid-cols-2 gap-10 md:gap-12 lg:gap-14">
+      <section className="bg-gannet-200 p-3">
+        <div className="grid grid-cols-2 gap-10 md:gap-12 lg:gap-14 h-full">
           <div className="col-span-2 md:col-span-1 flex justify-center items-center">
             <p>
               Quis elit proident laboris exercitation consequat officia do Lorem
