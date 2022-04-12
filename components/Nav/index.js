@@ -217,14 +217,14 @@ export default function Navbar() {
                 </div>
 
                 <div className="hidden md:flex text-gannet-700 uppercase text-sm">
-                    <NavLink to="/contact">
-                        Contact
-                    </NavLink>
                     <NavLink to="/about">
                         About
                     </NavLink>
                     <NavLink to="/services">
                         Services
+                    </NavLink>
+                    <NavLink to="/contact">
+                        Contact
                     </NavLink>
                 </div>
             </div>
