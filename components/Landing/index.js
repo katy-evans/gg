@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Landing = () => {
   return (
-    <>
+    <div className="max-w-7xl mx-auto">
 		<section className="">
 			{/* <div className="flex justify-center items-center w-full relative"> */}
 			{/* <Image
@@ -16,7 +16,7 @@ const Landing = () => {
 			<div className="bg-gannet-700 w-full h-40">
 			<div className="top-20 flex justify-center">
 				<h1 className="text-4xl text-gannet-500 font-slab mt-14">
-				Green Gannet food co
+				Green Gannet food co logo
 				</h1>
 			</div>
 			</div>
@@ -33,11 +33,11 @@ const Landing = () => {
 			<h2 className="text-neutral-400 text-2xl">Quality produce, locally sourced</h2>
 		</div>
 
-		<div className="bg-gannet-800 h-56 w-1/2 m-4 flex justify-center items-center">
+		<div className="bg-gannet-800 h-56 w-1/2 md:w-full m-4 flex justify-center items-center">
 			<p className="">image?</p>
 		</div>
 
-		<div className="text-neutral-400 text-lg m-4">
+		<div className="text-neutral-400 text-lg m-4 md:text-center">
 			<p>Irure velit ex sit Lorem et reprehenderit duis commodo velit
 			mollit.
 			</p>
@@ -59,7 +59,7 @@ const Landing = () => {
 							<div className="bg-gannet-900 w-full">
 								<img src="/images/firefood.jpg" alt="food" className="object-cover"/>
 							</div>
-							<p>
+							<p className="p-2">
 								Quis elit proident laboris exercitation consequat officia do
 								Lorem
 							</p>
@@ -83,7 +83,7 @@ const Landing = () => {
 				</div>
 			</div>
 		</div>
-    </>
+    </div>
   );
 }
 

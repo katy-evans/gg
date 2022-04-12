@@ -27,10 +27,10 @@ const Footer = () => {
       </ul>
 
       <div className="flex justify-center items-center">
-        <p className="text-gannet-700">&#169; greengannetfoodco</p>
+        <p className="text-gannet-700">&#169;greengannetfoodco 2022</p>
       </div>
       <div className="flex justify-center items-center p-2">
-        <p className="text-gannet-700 text-xs">site by &#169; katyevans</p>
+        <p className="text-gannet-700 text-xs">site by &#169;katyevans</p>
       </div>
     </div>
   );

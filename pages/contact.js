@@ -9,7 +9,7 @@ const contact = () => {
 				<h1 className="font-slab p-6">Get in touch!</h1>
 			</div>
 
-			<div className="">
+			<div className="max-w-7xl mx-auto">
 				<div className="min-h-screen">
 					<form action="https://formsubmit.co/1katytogo@gmail.com" method="POST" className="">
 
