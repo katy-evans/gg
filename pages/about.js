@@ -61,7 +61,7 @@ const About = () => {
 					<div className="col-span-2 md:col-span-1 text-center">
 						<div className="flex justify-center items-center p-2 md:p-0">
 							<div className="">
-								<img src="/images/firefood.jpg" alt="food" className="object-fit"/>
+								<img src="/images/image-2.jpg" alt="food" className="object-fit"/>
 							</div>
 						</div>
 					</div>
