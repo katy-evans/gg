@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image';
 
 const About = () => {
   return (
@@ -23,7 +22,7 @@ const About = () => {
 						</div>
 					</div>
 
-					<div className="p-2 col-span-2 flex justify-center items-center text-center">
+					<div className="p-2 col-span-2 flex justify-center items-center text-center pb-10">
 						<h2 className="text-neutral-400 text-2xl italic">"Quality produce, locally sourced"</h2>
 					</div>
 
@@ -61,7 +60,7 @@ const About = () => {
 					<div className="col-span-2 md:col-span-1 text-center">
 						<div className="flex justify-center items-center p-2 md:p-0">
 							<div className="">
-								<img src="/images/firefood.jpg" alt="food" className="object-cover"/>
+								<img src="/images/firefood.jpg" alt="food" className="object-fit"/>
 							</div>
 						</div>
 					</div>
