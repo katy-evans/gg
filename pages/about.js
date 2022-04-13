@@ -4,7 +4,8 @@ const About = () => {
   return (
 		<div className="max-w-7xl mx-auto">
 			<section>
-				<div className="grid grid-cols-2 gap-4 md:gap-8 h-full">
+				<div className="grid grid-cols-2 h-full">
+				{/* <div className="grid grid-cols-2 gap-4 md:gap-8 h-full"> */}
 					<div className="col-span-2 flex justify-center items-center">
 						<div className="w-full p-6 m-4">
 							<div className="text-center top-20 md:flex md:justify-center">
@@ -48,8 +49,8 @@ const About = () => {
 			<section className="bg-gannet-200 p-2 md:p-0">
 				<div className="grid grid-cols-2 h-full">
 				{/* <div className="grid grid-cols-2 gap-4 md:gap-8 h-full"> */}
-					<div className="col-span-2 md:col-span-1 flex justify-center items-center text-center mx-4 mt-4">
-						<p>
+					<div className="col-span-2 md:col-span-1 flex justify-center items-center text-center">
+						<p className="p-8">
 						2 Quis elit proident laboris exercitation consequat officia do Lorem
 						quis velit commodo. Lorem labore esse adipisicing non sit cillum.
 						Irure velit ex sit Lorem et reprehenderit duis commodo velit
