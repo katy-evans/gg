@@ -5,7 +5,7 @@ const Menu = () => {
 		<>
 		<div className="max-w-7xl mx-auto">
 			<section>
-				<div className="grid grid-cols-2 h-full">
+				<div className="grid grid-cols-2 h-full gap-4">
 
 					<div className="col-span-2 flex justify-center items-center">
 						<div className="w-full p-6 m-4">
@@ -25,31 +25,34 @@ const Menu = () => {
 						</div>
 					</div>
 
-					<div className="col-span-2 text-center text-neutral-400 mx-10">
+					<div className="col-span-2 text-center text-neutral-400 mx-10 pb-12">
 						<h2>Take a look below at some of the menu options we have prepared to whet your appetite.</h2>
 					</div>
+				</div>
+			</section>
 
-					<div className="col-span-2 flex justify-center items-center text-center m-4 pb-6 text-[#b0c5c2] mx-24 border-2 border-gannet-500">
-						<div className="flex">
-							<div className="p-8 mx-20 space-y-4">
+			<div className="grid grid-cols-2 gap-8">
+				<section className="col-span-2 bg-gannet-400 p-2 md:p-0 mx-24">
+					<div className="h-full">
+						<div className="col-span-2 flex justify-center items-center text-center">
+							<div className="p-8 max-w-lg space-y-4">
 								<h3 className="underline font-semibold">Menu One</h3>
-								<p>We play our part in ensuring we are as environmentally friendly as possible by using fully compostable and recyclable products. For a more formal event we also have a range of crockery that can be included in your package.</p>
+								<p>We play our part in ensuring we are as environmentally friendly as possible by using fully compostable and recyclable products. For a more formal event we also have a range of crockery that can be included in your package.</p> 
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
-
-			<section className="bg-gannet-400 p-2 md:p-0 mx-24">
-				<div className="grid grid-cols-2 h-full">
-					<div className="col-span-2 flex justify-center items-center text-center">
-						<div className="p-8 mx-20 space-y-4">
-							<h3 className="underline font-semibold">Menu Two</h3>
-							<p>No matter what type of event you are organising, rest assured you will receive locally sourced produce prepared and cooked with care and precision and served up with a smile by our friendly efficient team.</p> 
+				</section>
+				<section className="col-span-2 bg-gannet-400 p-2 md:p-0 mx-24">
+					<div className="h-full">
+						<div className="col-span-2 flex justify-center items-center text-center">
+							<div className="p-8 max-w-lg space-y-4">
+								<h3 className="underline font-semibold">Menu Two</h3>
+								<p>No matter what type of event you are organising, rest assured you will receive locally sourced produce prepared and cooked with care and precision and served up with a smile by our friendly efficient team.</p> 
+							</div>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
+			</div>
 		</div>
     </>
   )
