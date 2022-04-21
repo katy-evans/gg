@@ -34,7 +34,7 @@ const contact = () => {
 								</div>
 
 								<div className="space-y-6">
-									<button type="submit" className="rounded-none p-2 w-full focus:outline-none focus:ring-2 focus:ring-offset-2 shadow-md bg-gray-800 text-[#222] bg-gannet-400 hover:bg-gannet-600 hover:text-white transition duration-300"><p className="text-lg">Send</p>
+									<button type="submit" className="rounded-none p-2 w-full focus:outline-none focus:ring-2 focus:ring-offset-2 shadow-md bg-gray-800 text-[#222] bg-gannet-400 hover:bg-gannet-600 hover:text-white transition duration-300"><p className="text-lg">Submit</p>
 									</button>
 								</div>
 							</div>
@@ -61,18 +61,50 @@ const contact = () => {
 											<div className="mt-1 flex shadow-md pb-2">
 												<input type="phone" name="email" required className="flex-1 block w-full sm:text-sm rounded-none border border-gray-900 dark:border-gray-100 bg-white"></input>
 											</div>
-		{/* ----- / event / ----- */}									
-											<label htmlFor="event" className="text-lg flex justify-between items-end text-gannet-600"><span>Event type</span><span className="text-xs text-red-500">Required</span></label>
-											<div className="mt-1 flex shadow-md pb-2">
-												<input type="event" name="email" required className="flex-1 block w-full sm:text-sm rounded-none border border-gray-900 dark:border-gray-100 bg-white"></input>
-											</div>
-{/* ----- / number of guests / ----- */}
-											<label htmlFor="atendee" className="text-lg flex justify-between items-end text-gannet-600"><span>Number of guests</span><span className="text-xs text-red-500">Required</span></label>
-											<div className="mt-1 flex shadow-md">
-												<input type="atendee" name="email" required className="flex-1 block w-full sm:text-sm rounded-none border border-gray-900 dark:border-gray-100 bg-white"></input>
+		{/* ----- / event / ----- */}			
+
+											<div className="grid grid-cols-2 gap-4">
+												<div className="col-span-2 md:col-span-1">						
+													<label htmlFor="event" className="text-lg flex justify-between items-end text-gannet-600"><span>Event</span><span className="text-xs text-red-500">Required</span></label>
+													{/* <div className="mt-1 flex shadow-md pb-2">
+														<input type="event" name="email" required className="flex-1 block w-full sm:text-sm rounded-none border border-gray-900 dark:border-gray-100 bg-white"></input>
+													</div> */}
+													<div className="mt-1 flex shadow-md">
+														<select name="event" id="event" className="w-full">
+															<option value="javascript">Event type</option>
+															<option value="event 1">event 1</option>
+															<option value="event 2">event 2</option>
+															<option value="event 3">event 3</option>
+															<option value="event 4">event 4</option>
+															<option value="event 5">event 5</option>
+															<option value="event 6">event 6</option>
+															<option value="event 7">event 7</option>
+															<option value="event 8">event 8</option>
+														</select>
+													</div>
+												</div>
+	{/* ----- / number of guests / ----- */}
+												<div className="col-span-2 md:col-span-1">
+													<label htmlFor="atendees" className="text-lg flex justify-between items-end text-gannet-600"><span>Guests</span><span className="text-xs text-red-500">Required</span></label>
+													{/* <div className="mt-1 flex shadow-md">
+														<input type="atendee" name="email" required className="flex-1 block w-full sm:text-sm rounded-none border border-gray-900 dark:border-gray-100 bg-white"></input>
+													</div> */}
+													<div className="mt-1 flex shadow-md">
+														<select name="atendees" id="atendees" className="w-full">
+															<option value="javascript">Number of guests</option>
+															<option value="10">10</option>
+															<option value="20">20</option>
+															<option value="30">30</option>
+															<option value="40">40</option>
+															<option value="50">50</option>
+															<option value="60">60</option>
+															<option value="70">70</option>
+															<option value="80">80</option>
+														</select>
+													</div>
+												</div>
 											</div>
 									</div>
-
 								</div>
 							</div>
 						</div>
