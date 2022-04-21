@@ -13,18 +13,28 @@ const Landing = () => {
 				height={1100}
 				className="object-cover opacity-40"
 			/> */}
-			<div className="bg-gannet-700 w-full h-40">
+			{/* <div className="bg-gannet-700 w-full h-40">
 			<div className="top-20 flex justify-center">
 				<h1 className="text-4xl text-gannet-500 font-slab mt-14">
 				Green Gannet food co logo
 				</h1>
 			</div>
-			</div>
+			</div> */}
+			<div className="col-span-2 text-center mx-4 md:mx-0">
+						<div className="flex justify-center items-center">
+							<div className="w-full">
+								<img src="/images/copy-image-copy.png" alt="food" className="object-cover object-bottom h-44 w-full"/>
+							</div>
+						</div>
+						<div className="p-8">
+							<h1 className="text-4xl font-slab text-gannet-600">Green Gannet Food co</h1>
+						</div>
+					</div>
 			{/* </div> */}
 		</section>
 
 		<section className="w-full h-56 mt-6">
-			<div className="flex justify-center items-center">
+			<div className="flex justify-center items-center border-2 border-black shadow-lg h-56">
 			<h2 className="text-gannet-200">slider of images here?</h2>
 			</div>
 		</section>
