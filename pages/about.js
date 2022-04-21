@@ -13,8 +13,7 @@ const About = () => {
 								<h1 className="text-4xl text-gannet-500 font-slab">
 								About
 								</h1>
-									<p>Quality produce cooked over coals, served up in a variety of ways at markets, pop ups, weddings, public/private events...</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<p>Green Gannet Food Co ltd is a family run company based in Falkirk specialising in all things slow smoked & BBQ. We cater for both formal and informal events such as weddings, corporate days, family gatherings, garden party's and street food pop ups across Central Scotland.</p>
 								</div>
 							</div>
 								<div className="mt-8">
@@ -24,7 +23,10 @@ const About = () => {
 					</div>
 
 					<div className="p-2 col-span-2 flex justify-center items-center text-center pb-10">
-						<h2 className="text-neutral-400 text-2xl italic">"Quality produce, locally sourced"</h2>
+						<div className="text-neutral-400">
+							<h2>Our ethos is simple</h2>
+							<h2 className="text-2xl italic">"Quality produce cooked over coals"</h2>
+						</div>
 					</div>
 
 					<div className="col-span-2 md:col-span-1 text-center mx-4 md:mx-0">
@@ -37,10 +39,7 @@ const About = () => {
 
 					<div className="col-span-2 md:col-span-1 flex justify-center items-center text-center m-4 pb-6 text-[#b0c5c2]">
 						<p>
-						1 Quis elit proident laboris exercitation consequat officia do Lorem
-						quis velit commodo. Lorem labore esse adipisicing non sit cillum.
-						Irure velit ex sit Lorem et reprehenderit duis commodo velit
-						mollit.
+						Serving straight out of a profesionally converted cattle truck which has been customised to include our giant ceramic Kamado Joe grill "Big Joe" which is fueled with sustainably sourced and produced Scottish charcoal from Weir Forestry. Our set up is a guaranteed talking point at your event.
 						</p>
 					</div>
 				</div>

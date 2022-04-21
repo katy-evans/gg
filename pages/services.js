@@ -53,7 +53,7 @@ const Services = () => {
 				</div>
 			</section>
 
-			<section className="bg-gannet-200 p-2 md:p-0">
+			<section className="bg-gannet-400 p-2 md:p-0">
 				<div className="grid grid-cols-2 h-full">
 				{/* <div className="grid grid-cols-2 gap-4 md:gap-8 h-full"> */}
 					<div className="col-span-2 md:col-span-1 flex justify-center items-center text-center">
