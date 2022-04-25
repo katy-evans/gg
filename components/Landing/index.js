@@ -33,21 +33,21 @@ const Landing = () => {
 			{/* </div> */}
 		</section>
 
-		<section className="w-full h-56 mt-6">
+		{/* <section className="w-full h-56 mt-6">
 			<div className="flex justify-center items-center border-2 border-black shadow-lg h-56">
 			<h2 className="text-gannet-200">slider of images here?</h2>
 			</div>
-		</section>
+		</section> */}
 
 		<div className="p-2 text-center">
 			<h2 className="text-neutral-400 text-2xl">Quality produce, locally sourced</h2>
 		</div>
 
-		<div className="bg-gannet-800 h-56 w-1/2 md:w-full m-4 flex justify-center items-center">
+		<div className="bg-gannet-800 h-56 md:w-full m-4 flex justify-center items-center">
 			<p className="">image?</p>
 		</div>
 
-		<div className="text-neutral-400 text-lg m-4 md:text-center">
+		<div className="text-neutral-400 text-lg m-4 text-center">
 			<p>Irure velit ex sit Lorem et reprehenderit duis commodo velit
 			mollit.
 			</p>

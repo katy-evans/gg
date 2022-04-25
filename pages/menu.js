@@ -37,7 +37,16 @@ const Menu = () => {
 						<div className="col-span-2 flex justify-center items-center text-center">
 							<div className="p-8 max-w-lg space-y-4">
 								<h3 className="underline font-semibold">Menu One</h3>
-								<p>We play our part in ensuring we are as environmentally friendly as possible by using fully compostable and recyclable products. For a more formal event we also have a range of crockery that can be included in your package.</p> 
+									<ul>
+										<li>menu item</li>
+										<li>menu item</li>
+										<li>menu item</li>
+										<li>menu item</li>
+										<li>menu item</li>
+										<li>menu item</li>
+										<li>menu item</li>
+										<li>menu item</li>
+									</ul> 
 							</div>
 						</div>
 					</div>
@@ -47,7 +56,16 @@ const Menu = () => {
 						<div className="col-span-2 flex justify-center items-center text-center">
 							<div className="p-8 max-w-lg space-y-4">
 								<h3 className="underline font-semibold">Menu Two</h3>
-								<p>No matter what type of event you are organising, rest assured you will receive locally sourced produce prepared and cooked with care and precision and served up with a smile by our friendly efficient team.</p> 
+								<ul>
+									<li>menu item</li>
+									<li>menu item</li>
+									<li>menu item</li>
+									<li>menu item</li>
+									<li>menu item</li>
+									<li>menu item</li>
+									<li>menu item</li>
+									<li>menu item</li>
+								</ul> 
 							</div>
 						</div>
 					</div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
+import Button from '../components/Button';
 
 const Services = () => {
   return (
@@ -26,7 +27,9 @@ const Services = () => {
 								<h1 className="text-4xl text-gannet-500 font-slab">
 								Services
 								</h1>
+								<div className="text-xl">
 									<p>A typical event for us can range from an intimate back garden birthday party, street food evening catering at a wedding or a corporate away day</p>
+								</div>
 								</div>
 							</div>
 								<div className="mt-8">
@@ -72,15 +75,8 @@ const Services = () => {
 				</div>
 			</section>
 
-			<div className="col-span-2 md:col-span-1 text-center bg-[#222]">
-				<div className="flex justify-center items-center py-6 w-full p-5">
-					{/* <button className="bg-gannet-400 p-2 border-2 border-[#222] rounded-md hover:bg-gannet-600 hover:text-gannet-200 hover:border-gannet-200 transition duration-300 ease-in-out">Button to Contact page?
-					</button> */}
-					<Link href="/contact">
-						<a className="bg-gannet-400 p-2 border-2 border-[#222] rounded-md hover:bg-gannet-600 hover:text-gannet-200 hover:border-gannet-200 transition duration-300 ease-in-out">Button to Contact page?</a>
-					</Link>
-				</div>
-			</div>
+			<Button />
+			
 		</div>
       {/* <div className="h-40 text-2xl flex justify-center items-center">
         <h1>Services</h1>

@@ -187,7 +187,7 @@ function MobileNav({open, setOpen}) {
 					<a className="text-sm font-normal my-4 text-gannet-700 hover:text-gannet-500" href="/services" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
 						Services
 					</a>
-					<a className="text-sm font-normal my-4 text-gannet-700 hover:text-gannet-500" href="/menus" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+					<a className="text-sm font-normal my-4 text-gannet-700 hover:text-gannet-500" href="/menu" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
 						Menus
 					</a>
 					<a className="text-sm font-normal my-4 text-gannet-700 hover:text-gannet-500" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../components/Button';
 
 const About = () => {
   return (
@@ -10,10 +11,12 @@ const About = () => {
 						<div className="w-full p-6 m-4">
 							<div className="text-center top-20 md:flex md:justify-center">
 								<div className="space-y-8 text-[#b0c5c2]">
-								<h1 className="text-4xl text-gannet-500 font-slab">
-								About
-								</h1>
-									<p>Green Gannet Food Co ltd is a family run company based in Falkirk specialising in all things slow smoked & BBQ. We cater for both formal and informal events such as weddings, corporate days, family gatherings, garden party's and street food pop ups across Central Scotland.</p>
+									<h1 className="text-4xl text-gannet-500 font-slab">
+									About
+									</h1>
+									<div className="text-xl">
+										<p>Green Gannet Food Co ltd is a family run company based in Falkirk specialising in all things slow smoked &amp; BBQ. We cater for both formal and informal events such as weddings, corporate days, family gatherings, garden party's and street food pop ups across Central Scotland.</p>
+									</div>
 								</div>
 							</div>
 								<div className="mt-8">
@@ -67,12 +70,8 @@ const About = () => {
 				</div>
 			</section>
 
-			<div className="col-span-2 md:col-span-1 text-center bg-[#222]">
-				<div className="flex justify-center items-center py-6 w-full p-5">
-					<button className="bg-gannet-400 p-2 border-2 border-[#222] rounded-md hover:bg-gannet-600 hover:text-gannet-200 hover:border-gannet-200 transition duration-300 ease-in-out">Contact button here?
-					</button>
-				</div>
-			</div>
+			<Button />
+
 		</div>
     );
 }
