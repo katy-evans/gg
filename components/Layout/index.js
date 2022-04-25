@@ -9,7 +9,7 @@ const Layout = (props) => {
       <Head></Head>
       <div className="">
           <Nav />
-        <div className="bg-[#222] min-h-fit">{props.children}</div>
+        <div className="bg-[#222] min-h-fit pb-4">{props.children}</div>
         <Footer />
       </div>
     </div>

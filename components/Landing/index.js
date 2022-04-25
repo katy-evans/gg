@@ -27,33 +27,33 @@ const Landing = () => {
 							</div>
 						</div>
 						<div className="p-8">
-							<h1 className="text-4xl font-slab text-gannet-600">Green Gannet Food co</h1>
+							<h1 className="text-4xl font-slab text-gannet-500">Green Gannet Food co</h1>
 						</div>
 					</div>
 			{/* </div> */}
 		</section>
 
-		<section className="w-full h-56 mt-6">
+		{/* <section className="w-full h-56 mt-6">
 			<div className="flex justify-center items-center border-2 border-black shadow-lg h-56">
 			<h2 className="text-gannet-200">slider of images here?</h2>
 			</div>
-		</section>
+		</section> */}
 
 		<div className="p-2 text-center">
 			<h2 className="text-neutral-400 text-2xl">Quality produce, locally sourced</h2>
 		</div>
 
-		<div className="bg-gannet-800 h-56 w-1/2 md:w-full m-4 flex justify-center items-center">
+		<div className="bg-gannet-800 h-56 md:w-full m-4 flex justify-center items-center">
 			<p className="">image?</p>
 		</div>
 
-		<div className="text-neutral-400 text-lg m-4 md:text-center">
+		<div className="text-neutral-400 text-lg m-4 text-center">
 			<p>Irure velit ex sit Lorem et reprehenderit duis commodo velit
 			mollit.
 			</p>
 		</div>
 
-		<section className="bg-gannet-200 p-2">
+		<section className="bg-gannet-400 p-2">
 				<div className="grid grid-cols-2 gap-4 md:gap-6 lg:gap-14 h-full">
 					<div className="col-span-2 md:col-span-1 flex justify-center items-center m-4">
 						<p>
@@ -82,7 +82,7 @@ const Landing = () => {
 			<div className="flex justify-center items-center mt-6">
 				<div className="bg-gannet-900 w-full">
 					<div className="w-full">
-						<div className="bg-gannet-200 p-6">
+						<div className="bg-gannet-400 p-6">
 							<p className="p-4 border-2 border-[#222] rounded-md">Quote? elit proident laboris
 								<p>
 									-lorem-

@@ -34,7 +34,7 @@ const contact = () => {
 								</div>
 
 								<div className="space-y-6">
-									<button type="submit" className="rounded-none p-2 w-full focus:outline-none focus:ring-2 focus:ring-offset-2 shadow-md bg-gray-800 text-[#222] bg-gannet-400 hover:bg-gannet-600 hover:text-white transition duration-300"><p className="text-lg">Submit</p>
+									<button type="submit" className="rounded-none p-2 w-full focus:outline-none focus:ring-2 focus:ring-offset-2 shadow-md bg-gannet-400 text-[#222] bg-gannet-400 hover:bg-gannet-600 hover:text-white transition duration-300"><p className="text-lg">Submit</p>
 									</button>
 								</div>
 							</div>
@@ -59,7 +59,7 @@ const contact = () => {
 {/* -----  / phone /  ----- */}
 										<label htmlFor="phone" className="text-lg flex justify-between items-end text-gannet-600"><span>Phone</span><span className="text-xs text-red-500">Required</span></label>
 											<div className="mt-1 flex shadow-md pb-2">
-												<input type="phone" name="email" required className="flex-1 block w-full sm:text-sm rounded-none border border-gray-900 dark:border-gray-100 bg-white"></input>
+												<input type="phone" name="phone" required className="flex-1 block w-full sm:text-sm rounded-none border border-gray-900 dark:border-gray-100 bg-white"></input>
 											</div>
 		{/* ----- / event / ----- */}			
 
