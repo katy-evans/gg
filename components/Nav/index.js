@@ -180,7 +180,7 @@ function MobileNav({open, setOpen}) {
             </div>
 
 			<div className="m-20 flex justify-center items-center">
-				<div className="flex flex-col uppercase text-center">
+				<div className="flex flex-col uppercase text-center font-display">
 					<a className="text-sm font-medium my-4 text-gannet-700 hover:text-gannet-500" href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
 						About
 					</a>
@@ -219,7 +219,7 @@ export default function Navbar() {
                     <span className={`h-1 w-full bg-gannet-700 rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""}`} />
                 </div>
 
-                <div className="hidden md:flex text-gannet-700 uppercase text-sm">
+                <div className="hidden md:flex text-gannet-700 uppercase text-sm font-display">
                     <NavLink to="/about">
                         About
                     </NavLink>

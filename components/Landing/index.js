@@ -43,7 +43,7 @@ const Landing = () => {
 			<h2 className="text-neutral-400 text-xl font-display">Quality produce, locally sourced</h2>
 		</div>
 
-		<div className="bg-gannet-800 h-56 md:w-full m-4 flex justify-center items-center">
+		<div className="bg-gannet-800 h-56 w-full flex justify-center items-center">
 			<p className="">image?</p>
 		</div>
 
@@ -80,10 +80,10 @@ const Landing = () => {
 
 		<div className="col-span-2 md:col-span-1 text-center bg-[#222]">
 			<div className="flex justify-center items-center mt-6">
-				<div className="bg-gannet-900 w-full">
+				<div className="w-full">
 					<div className="w-full">
-						<div className="bg-gannet-400 p-6">
-							<p className="p-4 border-2 border-[#222] rounded-md font-display">Quote? elit proident laboris
+						<div className="p-6">
+							<p className="p-4 border-2 border-gannet-600 rounded-md font-display text-gannet-200">Quote? elit proident laboris
 								<p>
 									-lorem-
 								</p>
