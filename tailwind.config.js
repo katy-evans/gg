@@ -22,7 +22,7 @@ module.exports = {
       },
 
       fontFamily: {
-        slab: ["timberline", "sans-serif"],
+        slab: ["oswald", "sans-serif"],
 		display: ["poppins", "sans-serif"],
       },
 

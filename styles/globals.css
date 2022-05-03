@@ -1,7 +1,12 @@
 @import url("https://use.typekit.net/lun2zgy.css");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@400;600&display=swap');
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+li {
+	padding: 3px;
+}
