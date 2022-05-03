@@ -90,7 +90,7 @@ const Landing = () => {
             <div className="flex justify-center items-center p-2 md:p-0">
               <div className="">
                 <img
-                  src="/images/kamado.jpg"
+                  src="/images/alex.jpg"
                   alt="kamado-food"
                   className="object-fit"
                 />

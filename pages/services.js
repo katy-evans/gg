@@ -42,7 +42,7 @@ const Services = () => {
 						<div className="bg-gannet-600">
 							<div className="flex justify-center items-center">
 								<div className="w-full">
-									<img src="/images/burger.jpg" alt="food" className="object-cover"/>
+									<img src="/images/kamado.jpg" alt="food" className="object-cover"/>
 								</div>
 							</div>
 						</div>
@@ -68,7 +68,7 @@ const Services = () => {
 					<div className="col-span-2 md:col-span-1 text-center">
 						<div className="flex justify-center items-center p-2 md:p-0">
 							<div className="">
-								<img src="/images/image-2.jpg" alt="food" className="object-fit"/>
+								<img src="/images/services2.jpg" alt="food" className="object-fit"/>
 							</div>
 						</div>
 					</div>
