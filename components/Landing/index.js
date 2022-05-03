@@ -14,7 +14,12 @@ const Landing = () => {
                 <div className="space-y-8 text-[#b0c5c2]">
                   {/* <h1 className="text-4xl text-gannet-500 font-slab">About</h1> */}
 
-					<Image src="/images/greengannetlogo.png" alt="green gannet logo" width="200" height="200" />
+                  <Image
+                    src="/images/greengannetlogo.png"
+                    alt="green gannet logo"
+                    width="200"
+                    height="200"
+                  />
 
                   <div className="text-lg font-display">
                     <p>
@@ -22,7 +27,8 @@ const Landing = () => {
                       Falkirk specialising in all things slow smoked &amp; BBQ.
                       We cater for both formal and informal events such as
                       weddings, corporate days, family gatherings, garden
-                      party&apos;s and street food pop ups across Central Scotland.
+                      party&apos;s and street food pop ups across Central
+                      Scotland.
                     </p>
                   </div>
                 </div>
@@ -46,8 +52,8 @@ const Landing = () => {
             <div className="flex justify-center items-center">
               <div className="w-full">
                 <img
-                  src="/images/firefood.jpg"
-                  alt="food"
+                  src="/images/trailer.jpg"
+                  alt="trailer"
                   className="object-cover"
                 />
               </div>
@@ -82,8 +88,8 @@ const Landing = () => {
             <div className="flex justify-center items-center p-2 md:p-0">
               <div className="">
                 <img
-                  src="/images/image-2.jpg"
-                  alt="food"
+                  src="/images/kamado.jpg"
+                  alt="kamado-food"
                   className="object-fit"
                 />
               </div>
