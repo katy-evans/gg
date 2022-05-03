@@ -12,14 +12,16 @@ const Landing = () => {
             <div className="w-full p-6 m-4">
               <div className="text-center top-20 md:flex md:justify-center">
                 <div className="space-y-8 text-[#b0c5c2]">
-                  {/* <h1 className="text-4xl text-gannet-500 font-slab">About</h1> */}
-
-                  <Image
-                    src="/images/greengannetlogo.png"
-                    alt="green gannet logo"
-                    width="200"
-                    height="200"
-                  />
+        
+					<div className="flex justify-center items-center">
+						<img
+						src="/images/greengannetlogo.png"
+						alt="green gannet logo"
+						width="200"
+						height="200"
+						className="object-cover"
+						/>
+					</div>
 
                   <div className="text-lg font-display">
                     <p>
