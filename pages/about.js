@@ -14,7 +14,7 @@ const About = () => {
 									<h1 className="text-4xl text-gannet-500 font-slab">
 									About
 									</h1>
-									<div className="text-xl">
+									<div className="text-lg font-display">
 										<p>Green Gannet Food Co ltd is a family run company based in Falkirk specialising in all things slow smoked &amp; BBQ. We cater for both formal and informal events such as weddings, corporate days, family gatherings, garden party's and street food pop ups across Central Scotland.</p>
 									</div>
 								</div>
@@ -28,7 +28,7 @@ const About = () => {
 					<div className="p-2 col-span-2 flex justify-center items-center text-center pb-10">
 						<div className="text-neutral-400">
 							<h2>Our ethos is simple</h2>
-							<h2 className="text-2xl italic">"Quality produce cooked over coals"</h2>
+							<h3 className="text-2xl italic">"Quality produce cooked over coals"</h3>
 						</div>
 					</div>
 
@@ -40,7 +40,7 @@ const About = () => {
 						</div>
 					</div>
 
-					<div className="col-span-2 md:col-span-1 flex justify-center items-center text-center m-4 pb-6 text-[#b0c5c2]">
+					<div className="col-span-2 md:col-span-1 flex justify-center items-center text-center m-4 py-6 text-[#b0c5c2] font-display">
 						<p>
 						Serving straight out of a profesionally converted cattle truck which has been customised to include our giant ceramic Kamado Joe grill "Big Joe" which is fueled with sustainably sourced and produced Scottish charcoal from Weir Forestry. Our set up is a guaranteed talking point at your event.
 						</p>
@@ -52,8 +52,8 @@ const About = () => {
 				<div className="grid grid-cols-2 h-full">
 				{/* <div className="grid grid-cols-2 gap-4 md:gap-8 h-full"> */}
 					<div className="col-span-2 md:col-span-1 flex justify-center items-center text-center">
-						<p className="p-8">
-						2 Quis elit proident laboris exercitation consequat officia do Lorem
+						<p className="p-8 font-display">
+						Quis elit proident laboris exercitation consequat officia do Lorem
 						quis velit commodo. Lorem labore esse adipisicing non sit cillum.
 						Irure velit ex sit Lorem et reprehenderit duis commodo velit
 						mollit.

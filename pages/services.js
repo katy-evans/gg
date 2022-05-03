@@ -27,7 +27,7 @@ const Services = () => {
 								<h1 className="text-4xl text-gannet-500 font-slab">
 								Services
 								</h1>
-								<div className="text-xl">
+								<div className="text-lg font-display">
 									<p>A typical event for us can range from an intimate back garden birthday party, street food evening catering at a wedding or a corporate away day</p>
 								</div>
 								</div>
@@ -48,7 +48,7 @@ const Services = () => {
 						</div>
 					</div>
 
-					<div className="col-span-2 md:col-span-1 flex justify-center items-center text-center m-4 pb-6 text-[#b0c5c2]">
+					<div className="col-span-2 md:col-span-1 flex justify-center items-center text-center m-4 py-6 text-[#b0c5c2] font-display">
 						<p>
 						We play our part in ensuring we are as environmentally friendly as possible by using fully compostable and recyclable products. For a more formal event we also have a range of crockery that can be included in your package.
 						</p>
@@ -60,7 +60,7 @@ const Services = () => {
 				<div className="grid grid-cols-2 h-full">
 				{/* <div className="grid grid-cols-2 gap-4 md:gap-8 h-full"> */}
 					<div className="col-span-2 md:col-span-1 flex justify-center items-center text-center">
-						<p className="p-8">
+						<p className="p-8 font-display">
 						No matter what type of event you are organising, rest assured you will receive locally sourced produce prepared and cooked with care and precision and served up with a smile by our friendly efficient team. 
 						</p>
 					</div>
