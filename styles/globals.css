@@ -5,3 +5,6 @@
 @tailwind components;
 @tailwind utilities;
 
+li {
+	padding: 3px;
+}
