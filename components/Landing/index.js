@@ -47,7 +47,7 @@ const Landing = () => {
 			<p className="">image?</p>
 		</div>
 
-		<div className="text-neutral-400 text-lg italic m-4 text-center font-display">
+		<div className="text-neutral-400 text-lg italic m-4 p-4 text-center font-display">
 			<p>Irure velit ex sit Lorem et reprehenderit duis commodo velit
 			mollit.
 			</p>
@@ -83,9 +83,9 @@ const Landing = () => {
 				<div className="w-full">
 					<div className="w-full">
 						<div className="p-6">
-							<p className="p-4 border-2 border-gannet-600 rounded-md font-display text-gannet-200">Quote? elit proident laboris
+							<p className="p-4 border-2 border-gannet-600 rounded-md font-display text-gannet-200">"Bangin' burgers mate!"
 								<p>
-									-lorem-
+									-Quote?-
 								</p>
 							</p>
 						</div>

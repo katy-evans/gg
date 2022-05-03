@@ -45,7 +45,7 @@ const contact = () => {
 								<div className="flex justify-center items-center p-2">
 									<div className="py-4 mt-4 w-full">
 										
-										<label htmlFor="name" className="text-lg flex justify-between items-end text-gannet-600"><span>Name</span><span className="text-xs text-red-500 ">Required</span></label>
+										<label htmlFor="name" className="text-lg flex justify-between items-end text-gannet-600"><span>Name</span><span className="text-xs text-red-500">Required</span></label>
 										<div className="mt-1 flex shadow-md pb-2">
 											<input type="text" name="name" required className="flex-1 block w-full sm:text-sm rounded-none border border-gray-900 dark:border-gray-100 bg-white"></input>
 										</div>

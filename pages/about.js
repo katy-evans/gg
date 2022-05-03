@@ -28,7 +28,7 @@ const About = () => {
 					<div className="p-2 col-span-2 flex justify-center items-center text-center pb-10">
 						<div className="text-neutral-400">
 							<h2>Our ethos is simple</h2>
-							<h2 className="text-2xl italic">"Quality produce cooked over coals"</h2>
+							<h3 className="text-2xl italic">"Quality produce cooked over coals"</h3>
 						</div>
 					</div>
 

@@ -12,7 +12,7 @@ const Footer = () => {
             <a target="__blank" rel="noOpener noReferrer">
               <FontAwesomeIcon
                 icon={faFacebook}
-                className="w-6 h-6 text-gannet-500"
+                className="w-6 h-6 text-gannet-500 hover:text-gannet-700"
               />
             </a>
           </Link>
@@ -20,7 +20,7 @@ const Footer = () => {
         <li>
           <Link href="https://www.instagram.com/greengannetfoodco/?hl=en">
             <a target="__blank" rel="noOpener noReferrer">
-              <FontAwesomeIcon icon={faInstagram} className="w-6 h-6 text-gannet-500" />
+              <FontAwesomeIcon icon={faInstagram} className="w-6 h-6 text-gannet-500 hover:text-gannet-700" />
             </a>
           </Link>
         </li>
