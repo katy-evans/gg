@@ -12,18 +12,17 @@ const Landing = () => {
             <div className="w-full p-6 m-4">
               <div className="text-center top-20 md:flex md:justify-center">
                 <div className="space-y-8 text-[#b0c5c2]">
-        
-					<div className="flex justify-center items-center">
-						<img
-						src="/images/greengannetlogo.png"
-						alt="green gannet logo"
-						width="200"
-						height="200"
-						className="object-cover"
-						/>
-					</div>
+                  <div className="flex justify-center items-center">
+                    <img
+                      src="/images/greengannetlogo.png"
+                      alt="green gannet logo"
+                      width="200"
+                      height="200"
+                      className="object-cover"
+                    />
+                  </div>
 
-                  <div className="text-lg font-display">
+                  <div className="text-lg font-display leading-relaxed tracking-wide">
                     <p>
                       Green Gannet Food Co ltd is a family run company based in
                       Falkirk specialising in all things slow smoked &amp; BBQ.
@@ -41,7 +40,7 @@ const Landing = () => {
             </div>
           </div>
 
-          <div className="p-2 col-span-2 flex justify-center items-center text-center pb-10">
+          <div className="p-2 col-span-2 flex justify-center items-center text-center pb-10 leading-7 tracking-wide">
             <div className="text-neutral-400">
               <h2>Our ethos is simple</h2>
               <h3 className="text-2xl italic">
@@ -52,9 +51,9 @@ const Landing = () => {
 
           <div className="col-span-2 text-center mx-auto">
             <div className="flex justify-center items-center">
-              <div className="w-full">
+              <div className="w-full mx-4">
                 <img
-                  src="/images/trailer.jpg"
+                  src="/images/trailer2.jpg"
                   alt="trailer"
                   className="object-cover"
                 />
@@ -62,13 +61,13 @@ const Landing = () => {
             </div>
           </div>
 
-          <div className="col-span-2 flex justify-center items-center text-center m-4 py-6 text-[#b0c5c2] font-display">
+          <div className="col-span-2 flex justify-center items-center text-center m-4 py-6 text-[#b0c5c2] font-display leading-7 tracking-wide">
             <p>
               Serving straight out of a profesionally converted cattle truck
               which has been customised to include our giant ceramic Kamado Joe
-              grill &ldquo;Big Joe&ldquo; which is fueled with sustainably sourced and
-              produced Scottish charcoal from Weir Forestry. Our set up is a
-              guaranteed talking point at your event.
+              grill &ldquo;Big Joe&ldquo; which is fueled with sustainably
+              sourced and produced Scottish charcoal from Weir Forestry. Our set
+              up is a guaranteed talking point at your event.
             </p>
           </div>
         </div>
