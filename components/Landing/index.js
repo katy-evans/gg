@@ -50,7 +50,7 @@ const Landing = () => {
             </div>
           </div>
 
-          <div className="col-span-2 md:col-span-1 text-center mx-4 md:mx-0">
+          <div className="col-span-2 text-center mx-auto">
             <div className="flex justify-center items-center">
               <div className="w-full">
                 <img
@@ -62,11 +62,11 @@ const Landing = () => {
             </div>
           </div>
 
-          <div className="col-span-2 md:col-span-1 flex justify-center items-center text-center m-4 py-6 text-[#b0c5c2] font-display">
+          <div className="col-span-2 flex justify-center items-center text-center m-4 py-6 text-[#b0c5c2] font-display">
             <p>
               Serving straight out of a profesionally converted cattle truck
               which has been customised to include our giant ceramic Kamado Joe
-              grill "Big Joe" which is fueled with sustainably sourced and
+              grill &ldquo;Big Joe&ldquo; which is fueled with sustainably sourced and
               produced Scottish charcoal from Weir Forestry. Our set up is a
               guaranteed talking point at your event.
             </p>
@@ -74,9 +74,9 @@ const Landing = () => {
         </div>
       </section>
 
-      <section className="bg-gannet-400 p-2 md:p-0">
+      {/* <section className="bg-gannet-400 p-2 md:p-0">
         <div className="grid grid-cols-2 h-full">
-          {/* <div className="grid grid-cols-2 gap-4 md:gap-8 h-full"> */}
+         
           <div className="col-span-2 md:col-span-1 flex justify-center items-center text-center">
             <p className="p-8 font-display">
               Quis elit proident laboris exercitation consequat officia do Lorem
@@ -98,7 +98,7 @@ const Landing = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Button />
     </div>

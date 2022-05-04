@@ -8,7 +8,7 @@ const Button = () => {
 				{/* <button className="bg-gannet-400 p-2 border-2 border-[#222] rounded-md hover:bg-gannet-600 hover:text-gannet-200 hover:border-gannet-200 transition duration-300 ease-in-out">Contact button here?
 				</button> */}
 				<Link href="/contact">
-					<a className="bg-gannet-400 p-2 border-2 border-[#222] rounded-md hover:bg-gannet-600 hover:text-gannet-200 hover:border-gannet-200 transition duration-300 ease-in-out">Contact us</a>
+					<a className="bg-gannet-400 px-6 p-2 border-2 border-[#222] rounded-md hover:bg-gannet-600 hover:text-gannet-200 transition duration-300 ease-in-out text-lg">Contact us</a>
 				</Link>
 			</div>
 		</div>
