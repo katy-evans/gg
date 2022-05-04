@@ -61,7 +61,7 @@ const Landing = () => {
             </div>
           </div>
 
-          <div className="col-span-2 flex justify-center items-center text-center m-4 py-6 text-[#b0c5c2] font-display leading-7 tracking-wide">
+          <div className="col-span-2 flex justify-center items-center text-center mx-4 mt-4 pt-6 text-[#b0c5c2] font-display leading-7 tracking-wide">
             <p>
               Serving straight out of a profesionally converted cattle truck
               which has been customised to include our giant ceramic Kamado Joe
