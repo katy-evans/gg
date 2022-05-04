@@ -13,6 +13,9 @@ const contact = () => {
                 <h1 className="text-4xl text-gannet-500 font-slab">
                   Get in touch!
                 </h1>
+				<div>
+					<p>We&apos;ll get back to you as soon as we can.</p>
+				</div>
               </div>
             </div>
             <div className="mt-8">

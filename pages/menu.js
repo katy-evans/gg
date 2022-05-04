@@ -4,7 +4,7 @@ const Menu = () => {
   return (
     <>
       <div className="max-w-7xl mx-auto">
-        <section>
+        <section className="leading-7 tracking-wide">
           <div className="grid grid-cols-2 h-full gap-4">
             <div className="col-span-2 flex justify-center items-center">
               <div className="w-full p-6 m-4">
@@ -16,7 +16,7 @@ const Menu = () => {
                         Alex Stewart, chef and firestarter has gathered a wealth
                         of experience in the hospitality industry having worked
                         at some of the leading luxury hotels, tourist
-                        attractions, restaurants and catering company's in
+                        attractions, restaurants and catering company&apos;s in
                         Scotland.
                       </p>
 

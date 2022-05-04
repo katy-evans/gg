@@ -184,7 +184,7 @@ function MobileNav({open, setOpen}) {
           {" "}
           <div className="">
             <img
-              src="/images/greengannetlogo.png"
+              src="/images/ggwlogo.png"
               alt="green gannet logo"
               width="65"
               height="65"
