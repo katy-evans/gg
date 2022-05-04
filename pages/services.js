@@ -42,53 +42,53 @@ const Services = () => {
         </section>
 
         <section className="grid grid-cols-2 h-full">
-			<div className="col-span-2 md:col-span-1 text-center mx-4 md:mx-0">
-				<div className="bg-gannet-600">
-				<div className="flex justify-center items-center">
-					<div className="w-full">
-					<img
-						src="/images/kamado.jpg"
-						alt="food"
-						className="object-cover"
-					/>
-					</div>
-				</div>
-				</div>
-			</div>
+          <div className="col-span-2 md:col-span-1 text-center mx-4 md:mx-0">
+            <div className="bg-gannet-600">
+              <div className="flex justify-center items-center">
+                <div className="w-full">
+                  <img
+                    src="/images/kamado.jpg"
+                    alt="food"
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
 
-			<div className="col-span-2 md:col-span-1 flex justify-center items-center text-center m-4 py-6 text-[#b0c5c2] font-display leading-7 tracking-wide">
-				<p>
-				We play our part in ensuring we are as environmentally friendly as
-				possible by using fully compostable and recyclable products. For a
-				more formal event we also have a range of crockery that can be
-				included in your package.
-				</p>
-			</div>
+          <div className="col-span-2 md:col-span-1 flex justify-center items-center text-center m-4 py-6 text-[#b0c5c2] font-display leading-7 tracking-wide">
+            <p>
+              We play our part in ensuring we are as environmentally friendly as
+              possible by using fully compostable and recyclable products. For a
+              more formal event we also have a range of crockery that can be
+              included in your package.
+            </p>
+          </div>
 
-			<section className="bg-gannet-400  md:p-0 col-span-2 md:col-span-1">
-				<div className="">
-					<div className="flex justify-center items-center text-center">
-						<p className="p-8 font-display leading-7 tracking-wide">
-						No matter what type of event you are organising, rest assured
-						you will receive locally sourced produce prepared and cooked
-						with care and precision and served up with a smile by our
-						friendly efficient team.
-						</p>
-					</div>
-				</div>
-			</section>
+          <section className="bg-gannet-400 md:p-0 col-span-2 md:col-span-1 flex justify-center items-center text-center">
+            <div className="">
+              <div className="">
+                <p className="p-8 font-display leading-7 tracking-wide">
+                  No matter what type of event you are organising, rest assured
+                  you will receive locally sourced produce prepared and cooked
+                  with care and precision and served up with a smile by our
+                  friendly efficient team.
+                </p>
+              </div>
+            </div>
+          </section>
 
-					<div className="col-span-2 md:col-span-1 text-center">
-						<div className="flex justify-center items-center  md:p-0">
-							<div className="">
-								<img
-								src="/images/services2.jpg"
-								alt="food"
-								className="object-fit"
-								/>
-							</div>
-						</div>
-					</div>
+          <div className="col-span-2 md:col-span-1 text-center bg-gannet-400">
+            <div className="flex justify-center items-center mx-4 md:mx-0  md:p-0">
+              <div className="">
+                <img
+                  src="/images/services2.jpg"
+                  alt="food"
+                  className="object-fit"
+                />
+              </div>
+            </div>
+          </div>
         </section>
 
         <Button />
