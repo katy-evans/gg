@@ -12,19 +12,22 @@ const Menu = () => {
                   <div className="space-y-8 text-[#b0c5c2]">
                     <h1 className="text-4xl text-gannet-500 font-slab">Menu</h1>
                     <div className="text-lg font-display">
-                      <p>
-                        Alex Stewart, chef and firestarter has gathered a wealth
-                        of experience in the hospitality industry having worked
-                        at some of the leading luxury hotels, tourist
-                        attractions, restaurants and catering company&apos;s in
-                        Scotland.
-                      </p>
-
-                      <p>
-                        He loves to work with clients on an individual basis to
-                        share his fresh, innovative and modern ideas to create
-                        bespoke and memorable menus for any occasion.{" "}
-                      </p>
+						<div className="p-4 lg:p-0">
+							<p>
+							Alex Stewart, chef and firestarter has gathered a
+							wealth of experience in the hospitality industry
+							having worked at some of the leading luxury hotels,
+							tourist attractions, restaurants and catering
+							company&apos;s in Scotland.
+							</p>
+						</div>
+						<div>
+							<p>
+							He loves to work with clients on an individual basis
+							to share his fresh, innovative and modern ideas to
+							create bespoke and memorable menus for any occasion.
+							</p>
+						</div>
                     </div>
                   </div>
                 </div>
