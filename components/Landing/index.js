@@ -57,6 +57,15 @@ const Landing = () => {
                   alt="trailer"
                   className="object-cover"
                 />
+
+				{/* <Image
+				src={"/images/trailer2.jpg"}
+				alt={"trailer"}
+				width={1500}
+				height={1100}
+				className="object-cover"
+			/> */}
+
               </div>
             </div>
           </div>

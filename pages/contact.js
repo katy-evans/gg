@@ -42,6 +42,7 @@ const contact = () => {
                 method="POST"
                 className=""
               >
+			  
                 {/* -----  message / submit  ----- */}
 
                 <div className="grid grid-cols-2 gap-4 md:gap-6 lg:gap-14 h-full mx-6">
@@ -64,7 +65,6 @@ const contact = () => {
                   </div>
 
                   {/* -----  / name / ----- */}
-
                   <div className="col-span-2 md:col-span-1 text-center">
                     <div className="flex justify-center items-center p-2">
                       <div className="py-4 mt-4 w-full">
@@ -83,6 +83,7 @@ const contact = () => {
                             className="flex-1 block w-full sm:text-sm rounded-none border border-gray-900 dark:border-gray-100 bg-white"
                           ></input>
                         </div>
+
                         {/* -----  / email / ----- */}
                         <div className="">
                           <label
@@ -103,6 +104,7 @@ const contact = () => {
                             ></input>
                           </div>
                         </div>
+
                         {/* -----  / phone /  ----- */}
                         <label
                           htmlFor="phone"
@@ -119,34 +121,8 @@ const contact = () => {
                             className="flex-1 block w-full sm:text-sm rounded-none border border-gray-900 dark:border-gray-100 bg-white"
                           ></input>
                         </div>
-                        {/* ----- / event / reintroduce at a later date? ----- */}
+        
 
-                        {/* <div className="grid grid-cols-2 gap-4">
-                        <div className="col-span-2 md:col-span-1">
-                          <label
-                            htmlFor="event"
-                            className="text-lg flex justify-between items-end text-gannet-600"
-                          >
-                            <span>Event</span>
-                            <span className="text-xs text-red-500">
-                              Required
-                            </span>
-                          </label>
-                        
-                          <div className="mt-1 flex shadow-md">
-                            <select name="event" id="event" className="w-full">
-                              <option value="javascript">Event type</option>
-                              <option value="event 1">event 1</option>
-                              <option value="event 2">event 2</option>
-                              <option value="event 3">event 3</option>
-                              <option value="event 4">event 4</option>
-                              <option value="event 5">event 5</option>
-                              <option value="event 6">event 6</option>
-                              <option value="event 7">event 7</option>
-                              <option value="event 8">event 8</option>
-                            </select>
-                          </div>
-                        </div> */}
                         {/* ----- / number of guests / ----- */}
                         <div className="col-span-2 md:col-span-1">
                           <label
@@ -158,9 +134,8 @@ const contact = () => {
                               Required
                             </span>
                           </label>
-                          {/* <div className="mt-1 flex shadow-md">
-																<input type="atendee" name="email" required className="flex-1 block w-full sm:text-sm rounded-none border border-gray-900 dark:border-gray-100 bg-white"></input>
-															</div> */}
+						  
+            
                           <div className="mt-1 flex shadow-md">
                             <select
                               name="atendees"
@@ -194,7 +169,6 @@ const contact = () => {
                     </div>
                   </div>
                 </div>
-                {/* </div> */}
               </form>
             </div>
           </div>
