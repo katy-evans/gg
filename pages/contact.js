@@ -6,13 +6,13 @@ const contact = () => {
       <div className="max-w-7xl mx-auto">
         <section className="">
           <div className="grid grid-cols-2 min-h-screen">
-            <div className="col-span-2 flex justify-center items-center -mt-40">
+            <div className="col-span-2 flex justify-center items-center md:-mt-40">
               <div className="w-full p-6 m-4">
                 <div className="text-center top-20 md:flex md:justify-center">
                   <div className="space-y-8 text-[#b0c5c2]">
                     <div className="flex justify-center items-center">
                       <div className="col-span-2 flex justify-center items-center -mt-20">
-                        <div className="w-full p-6 m-4">
+                        <div className="w-full p-6 m-4 mt-10 md:mt-8">
                           <div className="text-center top-20 md:flex md:justify-center">
                             <div className="space-y-8 text-[#b0c5c2]">
                               <h1 className="text-4xl text-gannet-500 font-slab">
@@ -36,7 +36,7 @@ const contact = () => {
               </div>
             </div>
 
-            <div className="col-span-2 -mb-20">
+            <div className="col-span-2 md:-mt-36 md:-mb-36">
               <form
                 action="https://formsubmit.co/1katytogo@gmail.com"
                 method="POST"
@@ -182,7 +182,7 @@ const contact = () => {
                           </div>
                         </div>
 
-                        <div className="pt-9">
+                        <div className="pt-9 pb-12 mb-6">
                           <button
                             type="submit"
                             className="p-2 w-full focus:outline-none focus:ring-2 focus:ring-offset-2 shadow-md rounded-md bg-gannet-400 text-[#222] hover:bg-gannet-600 hover:text-white transition duration-300 border-2 border-gannet-800 hover:border-gannet-400"
