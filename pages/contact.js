@@ -42,7 +42,7 @@ const contact = () => {
                 method="POST"
                 className=""
               >
-			  
+
                 {/* -----  message / submit  ----- */}
 
                 <div className="grid grid-cols-2 gap-4 md:gap-6 lg:gap-14 h-full mx-6">
@@ -152,7 +152,7 @@ const contact = () => {
                               <option value="50">50</option>
                               <option value="60">60</option>
                               <option value="70">70</option>
-                              <option value="80">80</option>
+                              <option value="80">80 +</option>
                             </select>
                           </div>
                         </div>
