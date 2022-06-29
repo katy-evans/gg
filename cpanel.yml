@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/kbyajikifxxj/index.js/
-    - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home/kbyajikifxxj/public_html/
+    - /bin/cp green-gannet * $DEPLOYPATH
