@@ -1,11 +1,11 @@
 {
   "name": "my-new-project",
   "private": true,
+
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+	"dev": "node server.js",
+	"build": "next build",
+	"start": "NODE_ENV=productio node server.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.0",
