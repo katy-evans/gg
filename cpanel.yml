@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/kbyajikifxxj/public_html/
-    - /bin/cp green-gannet * $DEPLOYPATH
+    - /bin/cp green-gannet/ * $DEPLOYPATH
