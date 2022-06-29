@@ -38,7 +38,7 @@ const contact = () => {
 
             <div className="col-span-2 md:-mt-36 md:-mb-36">
               <form
-                action="https://formsubmit.co/1katytogo@gmail.com"
+                action="https://formsubmit.co/greengannetfoodco@gmail.com"
                 method="POST"
                 className=""
               >
