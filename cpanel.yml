@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/kbyajikifxxj/public_html/
+    - export DEPLOYPATH=/home/kbyajikifxxj/public_html/greengannetfoodco.co.uk
     - /bin/cp index.js $DEPLOYPATH
     - /bin/cp globals.css $DEPLOYPATH
