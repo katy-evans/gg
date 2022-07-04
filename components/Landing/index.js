@@ -58,14 +58,13 @@ const Landing = () => {
                   className="object-cover"
                 />
 
-				{/* <Image
+                {/* <Image
 				src={"/images/trailer2.jpg"}
 				alt={"trailer"}
 				width={1500}
 				height={1100}
 				className="object-cover"
 			/> */}
-
               </div>
             </div>
           </div>
@@ -74,7 +73,7 @@ const Landing = () => {
             <p>
               Serving straight out of a profesionally converted cattle truck
               which has been customised to include our giant ceramic Kamado Joe
-              grill &ldquo;Big Joe&ldquo; which is fueled with sustainably
+              grill &ldquo;Big Joe&ldquo; which is fuelled with sustainably
               sourced and produced Scottish charcoal from Weir Forestry. Our set
               up is a guaranteed talking point at your event.
             </p>
