@@ -52,7 +52,7 @@ const Menu = () => {
               <div className="col-span-2 flex justify-center items-center text-center">
                 <div className="p-8 max-w-lg space-y-4 font-display">
                   <h3 className="underline font-semibold p-3">
-                    From the grill
+                    From the hello
                   </h3>
                   <h2 className="underline font-semibold p-3">Meat</h2>
                   <ul className="italic">
