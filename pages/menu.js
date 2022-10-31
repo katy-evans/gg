@@ -81,6 +81,22 @@ const Menu = () => {
                       Peruvian style spatch cock chicken, slow smoke roasted
                     </li>
                   </ul>
+
+                  <h2 className="underline font-semibold p-3">Fish</h2>
+                  <ul className="italic">
+                    <li>
+                      Soy and ginger marinated salmon skewers, chilli dressing,
+                      lime and coriander
+                    </li>
+                    <li>Whiskey cured, hot oak smoked Scottish salmon</li>
+                    <li>
+                      Lemon and herb marinated sea bass cooked directly over
+                      coals
+                    </li>
+                    <li>Garlic, chili and ginger king prawn skewers</li>
+                    <li>BBQ monkfish, chorizo and salsa verde skewers</li>
+                  </ul>
+
                   <h3 className="underline font-semibold p-3">Salads/Sides</h3>
                   <ul className="italic">
                     <li>BBQ peppers and red onion, harrisa cous cous </li>
