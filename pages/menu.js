@@ -54,43 +54,32 @@ const Menu = () => {
                   <h3 className="underline font-semibold p-3">
                     From the grill
                   </h3>
-                  <h2 className="underline font-semibold p-3">
-                    Meat
-                  </h2>
+                  <h2 className="underline font-semibold p-3">Meat</h2>
                   <ul className="italic">
-                    <li>Jerk spiced chicken thighs, charred pineapple salsa</li>
-                    <li>Pork and Chorizo hot dog</li>
+                    <li>
+                      Slow smoke roast beef picanha finished with chimichurri
+                      sauce
+                    </li>
                     <li>
                       Scottish steak burger, glazed brioche bun, smoked cheese,
                       chutney and pickles
                     </li>
                     <li>
-                      Marinated crispy Halloumi, curry roast cauliflower, mango,
-                      yoghurt, folded naan
-                    </li>
-                    <li>Soy and ginger salmon skewers, chili dressing</li>
-                    <li>
-                      Grilled cumin spiced aubergine, toasted chickpea salsa,
-                      tortilla (V)
+                      Pork and Chorizo hot dog, loaded with smokey pulled pork
+                      and crispy onions
                     </li>
                     <li>
                       Lamb Kofta, cucumber pickle, pomegranate yoghurt,
                       flatbread
                     </li>
+                    <li>Peri Peri spiced chicken thighs, charred corn salsa</li>
                     <li>
-                      Oriental spiced chicken thighs, siracha, ginger and lime
+                      Oak smoked pulled pork, soft tortilla, pico de gallo
+                      salsa, chipotle sauce
                     </li>
                     <li>
-                      Spiced Oak smoked pulled pork, soft tortilla, pico salsa,
-                      chipotle sauce
+                      Peruvian style spatch cock chicken, slow smoke roasted
                     </li>
-                    <li>Whiskey cured and hot oak smoked Scottish salmon </li>
-                    <li>
-                      Smokey three bean and sweet potato chili, tortillas,
-                      guacamole, sour cream (V)
-                    </li>
-                    <li>BBQ Monkfish, chorizo and salsa Verde </li>
-                    <li>Sirloin steak, grilled seasonal vegetables </li>
                   </ul>
                   <h3 className="underline font-semibold p-3">Salads/Sides</h3>
                   <ul className="italic">
